@@ -1,0 +1,11 @@
+#ignore these files
+If you have files that you do not want Git to track because of various reasons (sensitive data, node_modules etc.) you can store a reference to those files in a .gitignore file
+This is a plain text file that lists these files so Git understands not to track them
+To create a .gitignore file you can simply create a file in your text editor called “.gitignore” 
+Alternatively you can run the command touch .gitignore in your project folder to create a new file
+If on a mac you may need to press Cmd+Shft+. to view hidden files in finder as mac hides all files that start with “.” by default (click again to rehide)
+“#” indicates a comment
+“*” indicates a wild card
+Ex. directory/*.txt
+Ignores all txt files in the folder “directory”
+https://git-scm.com/docs/gitignore 
